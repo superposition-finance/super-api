@@ -17,6 +17,8 @@ export interface Container {
   tvl: string
 }
 
-export function getContainers(req: Request, res: Response) {
+export async function getContainers(req: Request, res: Response) {
+  // simulate time
+  await new Promise((res) => setTimeout(res, 500))
   res.json(dummyContainers)
 }
