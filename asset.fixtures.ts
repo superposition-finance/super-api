@@ -1,5 +1,30 @@
 export const assets = {
+  // key by pool program
   YAkoNb6HKmSxQN9L8hiBE5tPJRsniSSMzND1boHmZxe: {
+    ticker: "usdc_usdt",
+    name: "USDT-USDC",
+    poolPubKey: "YAkoNb6HKmSxQN9L8hiBE5tPJRsniSSMzND1boHmZxe",
+    lpTokenPubKey: "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf",
+    lpTokenSupply: 532096994.634065,
+    tokenA: {
+      ticker: "USDC",
+      name: "USD Coin",
+      underlyingPubKey: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      reservePubKey: "CfWX7o2TswwbxusJ4hCaPobu2jLCb1hfXuXJQjVq3jQF",
+      reserveAmount: 260380223.590408,
+      owner: "5C1k9yV7y4CjMnKv8eGYDgWND8P89Pdfj79Trk2qmfGo",
+    },
+    tokenB: {
+      ticker: "USDT",
+      name: "USDT",
+      underlyingPubKey: "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      reservePubKey: "EnTrdMMpdhugeH6Ban6gYZWXughWxKtVGfCwFn78ZmY3",
+      reserveAmount: 283775528.961658,
+      owner: "5C1k9yV7y4CjMnKv8eGYDgWND8P89Pdfj79Trk2qmfGo",
+    },
+  },
+  // key by LP account pubkey
+  "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf": {
     ticker: "usdc_usdt",
     name: "USDT-USDC",
     poolPubKey: "YAkoNb6HKmSxQN9L8hiBE5tPJRsniSSMzND1boHmZxe",
