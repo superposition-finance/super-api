@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import { getContainers } from "./containers"
+import { getAsset } from "./assets"
 
 const app = express()
 app.use(cors())
@@ -15,6 +16,7 @@ apiv1.get("/health", (_, res) => {
 })
 
 apiv1.get("/containers", getContainers)
+apiv1.get("/assets/:pubkey", getAsset)
 
 app.listen(port, () => {
   console.log(`SuperAPI: ${port}.`)

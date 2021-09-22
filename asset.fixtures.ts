@@ -1,0 +1,48 @@
+export const assets = {
+  YAkoNb6HKmSxQN9L8hiBE5tPJRsniSSMzND1boHmZxe: {
+    ticker: "usdc_usdt",
+    name: "USDT-USDC",
+    poolPubKey: "YAkoNb6HKmSxQN9L8hiBE5tPJRsniSSMzND1boHmZxe",
+    lpTokenPubKey: "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf",
+    lpTokenSupply: 532096994.634065,
+    tokenA: {
+      ticker: "USDC",
+      name: "USD Coin",
+      underlyingPubKey: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      reservePubKey: "CfWX7o2TswwbxusJ4hCaPobu2jLCb1hfXuXJQjVq3jQF",
+      reserveAmount: 260380223.590408,
+      owner: "5C1k9yV7y4CjMnKv8eGYDgWND8P89Pdfj79Trk2qmfGo",
+    },
+    tokenB: {
+      ticker: "USDT",
+      name: "USDT",
+      underlyingPubKey: "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      reservePubKey: "EnTrdMMpdhugeH6Ban6gYZWXughWxKtVGfCwFn78ZmY3",
+      reserveAmount: 283775528.961658,
+      owner: "5C1k9yV7y4CjMnKv8eGYDgWND8P89Pdfj79Trk2qmfGo",
+    },
+  },
+  B2izdXFYb2sNwbWWHmh75T4aQFtfXsUxem9u2p61HGzf: {
+    ticker: "usdc_pai",
+    name: "PAI-USDC",
+    poolPubKey: "B2izdXFYb2sNwbWWHmh75T4aQFtfXsUxem9u2p61HGzf",
+    lpTokenPubKey: "PaiYwHYxr4SsEWox9YmyBNJmxVG7GdauirbBcYGB7cJ",
+    lpTokenSupply: 65875905.13987,
+    tokenA: {
+      ticker: "PAI",
+      name: "PAI (Parrot USD)",
+      underlyingPubKey: "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
+      reservePubKey: "4DYwgJtxwuJdAjkj5RJSNH4e7U329V5cNp7d3a1nLrZv",
+      reserveAmount: 41897516.627422,
+      owner: "7W9KMACQT6UmjRPEUQKXyVf4NjZ9Ux4PHs1e1P5PxDtA",
+    },
+    tokenB: {
+      ticker: "USDC",
+      name: "USD Coin",
+      underlyingPubKey: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      reservePubKey: "EXNW64GEf1ACC6xY9BtKRiunrs6GoJSXBdxWN2eTPmrF",
+      reserveAmount: 24334497.483552,
+      owner: "7W9KMACQT6UmjRPEUQKXyVf4NjZ9Ux4PHs1e1P5PxDtA",
+    },
+  },
+}
